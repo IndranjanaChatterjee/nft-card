@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Playfair:wght@600&family=Raleway&family=Roboto+Slab&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.3rem;
+    max-width: 20rem;
+    border-radius: 0.7rem;
+    position: relative;
+    top:1rem;
+    box-shadow: 1px 2px 30px  hsl(216, 56%, 7%);
+
+}
+#one{
+    color:hsl(0, 0%, 100%);
+    font-weight:900;
+    padding:1rem 0rem;
+    font-size: 1.5rem;
+    
+}
+#two{
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 0rem;
+}
+.first,.second{
+    display: flex;
+    gap:0.5rem;
+    font-weight: 600;
+    
+
+}
+.first {
+    color:hsl(178, 100%, 50%) ;
+}
+.second{
+    color:hsl(215, 51%, 70%);
+}
+.last{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 1rem;
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+
+}
+#c{
+    width:2rem;
+    height: 2rem;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.name{
+    color:hsl(0, 0%, 100%) ;
+}
+#one:hover,.name:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.image #m{
+    width:100%;
+    height:100%;
+    border-radius: 0.5rem;
+    background-color: aqua;
+
+}
+.attribution{
+    margin:3rem;
+    font-size: 1rem;
+}
+.image{
+    position: relative;
+}
+.hover  img{
+    height: 18%;
+    width: 18%;
+}
+.hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    border-radius: 0.5rem;
+    bottom:1%;
+    opacity: 0;
+}
+.hover:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
